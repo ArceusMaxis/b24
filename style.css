@@ -1,0 +1,105 @@
+*{
+    background-color: #000;
+}
+.sidebar{
+    z-index: 20;
+    color: #fff;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 98vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 10px;
+}
+.top{
+    height: 100%;
+    width: 1px;
+    position: relative;
+}
+.bottom{
+    height: 100%;
+    width: 1px;
+    position: relative;
+}
+.vertical{
+    height: 100%;
+    width: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: 0;
+}
+.horizontal{
+    height: 1px;
+    width: 1.5rem;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: -11px;
+}
+.logo{
+    height: 3rem;
+    width: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; 
+    font-style: italic;
+    font-weight: bold; 
+}
+.sidebar_content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+.point{
+    margin-bottom: .5rem;
+}
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.b{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.reverse{
+    left: auto;
+    right: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+.logomid{
+    height: 150px;
+    font-size: 20px;
+    text-orientation: mixed;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+}
