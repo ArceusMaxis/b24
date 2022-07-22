@@ -1,0 +1,42 @@
+.grid-container {
+    position:relative;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    max-height: 1vh;
+    max-width: 1vw;
+    height: 1vh;
+    width: 1vw;
+}
+  
+img {
+    position: absolute;
+    max-width: 650px;
+    height: auto;
+    transition: all 0.3s ease;
+    transform: translate(var(--x-position), var(--y-position)) scale(0.75);
+}
+  
+img:hover {
+      transform: translate(var(--x-position), var(--y-position)) scale(1.2);
+      z-index: 98 !important;
+}
+
+body{
+    background-color: #fde6a0;
+  }
+
+#header{
+    font-size: 20vh;
+    letter-spacing: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    font-stretch: extra-expanded;
+    text-align: center;
+    padding: 10px;
+    color: #de7600;
+}
